@@ -24,6 +24,7 @@ We got the stations which have the most pollution in each air pollution quality,
 |         661 |    pm10 |  37.31 |
 |        1297 |    pm25 |  27.29 |
 | STA.IT1509A |     so2 |   9.98 | 
+
 **In summary**, we choose station for each pollutants following the analysis in the EDA section.
 - Station: 652 for air quality of NO<sub>x</sub>
 - Station: 501 for air quality of NO<sub>2</sub>
