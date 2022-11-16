@@ -6,14 +6,14 @@
 
 The Lombardy region is one of the most polluted region in Europe. There is a large evidence that the agricultural section has a significant impact on air quality. The Lombardy region has several agicultural section then there are large amount of pollutants emitted to the air. The data scientists in the Lombardy region were assigned to build the model to predicting the pollutants quantity in the air. The model which predicted the pollutants in the air might help to decide the next actionable plan for balancing between agricultural products and air quality.
 
-The data set is retrieved from Zenodo. [[Ref.]](https://zenodo.org/record/6620530#.Y1Fkf3bP1PY) The detail of the data set is in the exploration data analysis section. Air quality information [[Ref1.]](https://www.euronews.com/weather/copernicus-air-quality-index), [[Ref2.]](https://airindex.eea.europa.eu/Map/AQI/Viewer/#) is provided using the European Air Quality Index, which follows the definition of the European Environment Agency (EEA, eea.europa.eu).
+The data set is retrieved from Zenodo. [[Ref.]](https://zenodo.org/record/6620530#.Y1Fkf3bP1PY) The detail of the data set is in the exploratory data analysis section. Air quality information [[Ref1.]](https://www.euronews.com/weather/copernicus-air-quality-index), [[Ref2.]](https://airindex.eea.europa.eu/Map/AQI/Viewer/#) is provided using the European Air Quality Index, which follows the definition of the European Environment Agency (EEA, eea.europa.eu).
 
 **Problem Statement**
 1. The data scientists were assign to build the time series model architecture for predicting each pollutants of each station in the Lombardy region.
 2. Identify the bad air quality days from the model and comparing to the actual value.
 3. Recommendation for usage and improving of the model.
 
-# Exploration Data Analysis
+# Exploratory Data Analysis
 ---
 We got the stations which have the most pollution in each air pollution quality, then we decided to select this station for modeling and predicting the air quality. In this project, we choose only 1 station for each air quality. The model we build in this project might be the model architecture for the future project.
 |  IDStations | quality | Values |
